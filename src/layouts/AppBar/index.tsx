@@ -18,7 +18,7 @@ export default function AppBar({searchMethod, searchLabel}: AppBarProps) {
 
   return (
     <>
-      <StatusBar barStyle={'dark-content'} backgroundColor={'white'} />
+      {/* <StatusBar barStyle={'dark-content'} backgroundColor={'white'} />
       <Box safeAreaTop />
       <HStack style={styles.container} pl={1} pr={1}>
         <IconButton
@@ -43,7 +43,7 @@ export default function AppBar({searchMethod, searchLabel}: AppBarProps) {
         <IconButton
           icon={<Icon name='dots-vertical' size={iconSize} />}
         />
-      </HStack>
+      </HStack> */}
     </>
   )
 }
